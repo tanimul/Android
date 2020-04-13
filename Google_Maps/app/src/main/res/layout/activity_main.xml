@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8ABCE4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/location_enable"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Location Enable !"
+        android:onClick="OnClick"
+        />
+    <Button
+        android:id="@+id/enableornot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Location Enable or not?"
+        android:onClick="OnClick"
+        />
+    <Button
+        android:id="@+id/simple_mapinit"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="simple Map Initilize"
+        android:onClick="OnClick"
+        />
+    <Button
+        android:id="@+id/cur_location"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Show Current location"
+        android:onClick="OnClick"
+        />
+    <Button
+        android:id="@+id/details_location"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Show Details  location"
+        android:onClick="OnClick"
+        />
+    <Button
+        android:id="@+id/locationsearch"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Search location"
+        android:onClick="OnClick"
+        />
+    <Button
+        android:id="@+id/arroundcurrentlocation"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="Arround current location"
+        android:onClick="OnClick"
+        />
+
+</LinearLayout>

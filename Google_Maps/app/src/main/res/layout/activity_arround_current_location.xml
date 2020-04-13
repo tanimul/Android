@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArroundCurrentLocation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/location_search"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Search place ....."
+
+            />
+
+        <ImageButton
+            android:id="@+id/imagebuttonforsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:onClick="Onclick"
+            android:src="@drawable/ic_search" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/b01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Onclick"
+            android:text="hospital" />
+
+        <Button
+            android:id="@+id/b02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Onclick"
+            android:text="school" />
+
+        <Button
+            android:id="@+id/b03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Onclick"
+            android:text="resturnent" />
+
+    </LinearLayout>
+
+
+    <fragment
+        android:id="@+id/maparroundme"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
