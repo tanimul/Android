@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Listview</string>
+    <string-array name="Bangladesh_Team_icc_2019_world_cup">
+        <item>Mashrafe</item>
+        <item>Musfic</item>
+        <item>Tamim</item>]
+        <item>Sakib</item>
+        <item>Mahmudullah</item>
+        <item>Somuya</item>
+        <item>Liton</item>
+        <item>Miraj</item>
+        <item>Sabbir</item>
+        <item>Mostafiz</item>
+        <item>Rubel</item>
+        <item>Taskin</item>
+
+    </string-array>
+
+</resources>
