@@ -1,0 +1,2 @@
+rootProject.name='Custom_navigation_drawer'
+include ':app'
