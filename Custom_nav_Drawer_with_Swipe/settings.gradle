@@ -1,0 +1,2 @@
+rootProject.name='Custom_nav_Drawer_with_Swipe'
+include ':app'
